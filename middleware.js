@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 
 export function middleware(request) {
-  console.log("Middleware called", request);
-  return NextResponse.next(request);
+  // console.log(request);
+  return NextResponse.next();
 }
 
 export const config = {
